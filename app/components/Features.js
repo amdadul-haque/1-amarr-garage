@@ -10,6 +10,7 @@ import {
   FaCloudSunRain,
   FaClipboardCheck
 } from 'react-icons/fa';
+import SectionTitle from './SectionTitle';
 
 const features = [
   {
@@ -64,7 +65,10 @@ const Features = () => {
 
   return (
     <div className='py-20'>
-      <div className='grid gap-10 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3'>   
+      <SectionTitle
+        text='Key Features'
+      />
+      <div className='grid gap-10 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3'>
         {features.map((feature, index) => (
           <div key={index} className='flex flex-col items-center border hover:border-brand-main px-4 py-6 gap-6 hover:shadow-lg  hover:scale-105 transition-all duration-300'>
             <feature.icon className='text-[40px] text-brand-main' />
