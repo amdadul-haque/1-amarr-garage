@@ -37,7 +37,7 @@ const Navbar = () => {
           <img src="/images/logo.png" alt="logo" className="h-[40px] xl:h-[50px] ml-2 my-2" /></a>
 
         <div
-          className="sm:hidden cursor-pointer z-10 mr-2"
+          className="md:hidden cursor-pointer z-10 mr-2"
           onClick={toggleMobileMenu}
         >
           <AiOutlineMenu className="text-[25px] text-black" />
@@ -46,10 +46,11 @@ const Navbar = () => {
           className={`bg-white ${isMobileMenuOpen ? 'flex flex-col gap-4' : 'hidden'} flex-col absolute px-4 py-2 top-[80px] left-0 right-0 w-[90%] md:w-auto mx-auto md:mx-0 md:top-0 text-text-dark md:flex md:flex-row justify-end md:items-centern gap-2 md:gap-6 md:relative`}
           animate={{ opacity: isMobileMenuOpen ? 1 : 0, height: isMobileMenuOpen ? 'auto' : 0, display: isMobileMenuOpen ? 'flex' : 'none' }}
         >
-          <li><a href="/" className="text-base font-medium hover:text-brand-main transition-all duration-300">Home</a></li>
+          <li><a href="#home" className="text-base font-medium hover:text-brand-main transition-all duration-300">Home</a></li>
+          <li><a href="#overview" className="text-base font-medium hover:text-brand-main transition-all duration-300">Overview</a></li>
           <li><a href="#features" className="text-base font-medium hover:text-brand-main transition-all duration-300">Features</a></li>
-          <li><a href="#about" className="text-base font-medium hover:text-brand-main transition-all duration-300">About</a></li>
-          <li><a href="#contact" className="text-base font-medium hover:text-brand-main transition-all duration-300">Contact</a></li>
+          <li><a href="#colors" className="text-base font-medium hover:text-brand-main transition-all duration-300">Colors</a></li>
+          <li><a href="#warranty" className="text-base font-medium hover:text-brand-main transition-all duration-300">Warranty</a></li>
 
         </ul>
       </div>
