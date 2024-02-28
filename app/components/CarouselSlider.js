@@ -51,8 +51,10 @@ const CarouselSlider = () => {
         alt={`Slide ${currentIndex + 1}`}
         width="1000"
         height="800"
-        className="w-full min-h-[80vh] max-h-[80vh]"
-        onLoad={() => setLoading(false)}
+        className="w-full h-[300px] sm:h-[500px] md:h-[600px] xl:min-h-[80vh] xl:max-h-[80vh]"
+        loading = 'lazy'
+        // onLoad={() => setLoading(false)}
+        onLoadingComplete={() => setLoading(false)}
       />
       <div className="flex items-center justify-center">
         <FaChevronLeft className="absolute left-0 top-1/2 transform -translate-y-[50px] cursor-pointer text-white text-4xl z-10" onClick={handlePrev} />
