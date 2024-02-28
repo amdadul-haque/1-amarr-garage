@@ -48,6 +48,7 @@ const Navbar = () => {
         >
           <li><a href="#home" className="text-base font-medium hover:text-brand-main transition-all duration-300">Home</a></li>
           <li><a href="#overview" className="text-base font-medium hover:text-brand-main transition-all duration-300">Overview</a></li>
+          <li><a href="#installandrepair" className="text-base font-medium hover:text-brand-main transition-all duration-300">Install</a></li>
           <li><a href="#features" className="text-base font-medium hover:text-brand-main transition-all duration-300">Features</a></li>
           <li><a href="#colors" className="text-base font-medium hover:text-brand-main transition-all duration-300">Colors</a></li>
           <li><a href="#warranty" className="text-base font-medium hover:text-brand-main transition-all duration-300">Warranty</a></li>
