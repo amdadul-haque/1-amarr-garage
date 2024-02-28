@@ -6,9 +6,9 @@ import SectionTitle from './SectionTitle';
 const InstallAndRepair = () => {
   return (
 
-    <div className='installandrepair'>
+    <div className='py-20' id='installandrepair'>
       <SectionTitle title="Installation & Repair" />
-      <div className="flex flex-col md:flex-row md:gap-10 items-center justify-center my-20">
+      <div className="flex flex-col md:flex-row md:gap-10 items-center justify-center">
         <div className="md:w-1/2 md:mr-4 mb-4 md:mb-0">
           <Link href="https://installation-link.com" passHref>
             <Image src="/images/install.jpg" alt="Installation" width={600} height={400} />

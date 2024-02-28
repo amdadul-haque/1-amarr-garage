@@ -44,7 +44,7 @@ const Warranty = () => {
     }
   ];
   return (
-    <div className='py-16' id="warranty">
+    <div className='py-16 pt-20' id="warranty">
       <SectionTitle title="Warranty" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {warrantyFeatures.map((feature, index) => (

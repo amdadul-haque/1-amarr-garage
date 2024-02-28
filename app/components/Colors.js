@@ -51,7 +51,7 @@ const Colors = () => {
   ];
 
   return (
-    <div className='py-16' id='colors'>
+    <div className='py-16 pt-20' id='colors'>
       <SectionTitle title="Color Options" />
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
         {colorOptions.map((colorOption, index) => (

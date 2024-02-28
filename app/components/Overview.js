@@ -38,7 +38,7 @@ const Overview = () => {
   ];
 
   return (
-    <div className="py-16" id='overview'>
+    <div className="py-16 pt-20" id='overview'>
       <SectionTitle title="Overview" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {sections.map((section, index) => (

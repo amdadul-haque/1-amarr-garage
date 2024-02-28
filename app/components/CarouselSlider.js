@@ -34,7 +34,7 @@ const CarouselSlider = () => {
   };
 
   return (
-    <div className="relative shadow select-none">
+    <div className="relative shadow select-none" id="home">
       {loading && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50">
           <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-white"></div>
@@ -52,7 +52,7 @@ const CarouselSlider = () => {
         width="1000"
         height="800"
         className="w-full h-[300px] sm:h-[500px] md:h-[600px] xl:min-h-[80vh] xl:max-h-[80vh]"
-        loading = 'lazy'
+        loading='lazy'
         // onLoad={() => setLoading(false)}
         onLoadingComplete={() => setLoading(false)}
       />
