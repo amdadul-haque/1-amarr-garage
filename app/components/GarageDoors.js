@@ -21,6 +21,7 @@ const GarageDoors = () => {
             <th className="text-sm sm:text-base border border-gray-400 px-2 sm:px-4 py-2">Recommended Opener HP</th>
           </tr>
         </thead>
+        
         <tbody>
           {garageDoorData.map((door, index) => (
             <tr key={index} className={index % 2 === 0 ? 'bg-gray-100 hover:bg-gray-200' : 'bg-white hover:bg-gray-200'}>
