@@ -10,12 +10,12 @@ const InstallAndRepair = () => {
       <SectionTitle title="Installation & Repair" />
       <div className="flex flex-col md:flex-row md:gap-10 items-center justify-center">
         <div className="md:w-1/2 md:mr-4 mb-4 md:mb-0">
-          <Link href="https://installation-link.com" passHref>
+          <Link href="https://veterangaragedoor.com/garage-doors/" passHref>
             <Image src="/images/install.jpg" alt="Installation" width={600} height={400} />
           </Link>
         </div>
         <div className="md:w-1/2">
-          <Link href="https://repair-link.com" passHref>
+          <Link href="https://veterangaragedoor.com/repair/" passHref>
             <Image src="/images/repair.jpg" alt="Repair" width={600} height={400} />
           </Link>
         </div>
