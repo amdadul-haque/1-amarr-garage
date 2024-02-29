@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Amarr Garage Door: Quality, Durable Doors for Your Home",
-  description: "Upgrade your home with an Amarr Garage Door - trusted for their durability and quality. With a variety of styles & options, find the perfect fit for your home.p",
+  description: "Upgrade your home with an Amarr Garage Door - trusted for their durability and quality. With a variety of styles & options, find the perfect fit for your home.",
 
 };
 
